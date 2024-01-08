@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            color: rgb(108,137,71);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 5px 10px;
+            background-color: rgb(255, 251, 245);
+        }
+        h1{
+            margin-bottom: 0;
+        }
+        .main{
+            border: 1px solid grey;
+            border-radius: 15px;
+        }
+        .box{
+            padding: 10px 20px;
+            background-color: rgb(108,137,71);
+            color: rgb(250,229,176);
+            border-top-right-radius: 15px;
+            border-top-left-radius: 15px;
+        }
+        .lable{
+            margin-top: 0;
+        }
+        .container{
+            width: 100%;
+            border-bottom-right-radius: 15px;
+            border-bottom-left-radius: 15px;
+            padding : 10px 20px;
+            background-color: rgb(250,229,176);
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        textarea{
+            background-color: rgb(215,236,177);
+            border: 1px solid grey;
+            border-radius: 5px;
+            width: 100%;
+            padding: 10px 5px;
+            margin: 10px auto;
+        } 
+        .btn{
+            color: rgb(250,229,176);
+            background-color: rgb(108,137,71);
+            padding : 10px 10px;
+            width: 10%;
+            border: 1px solid grey;
+            border-radius: 25px;
+            cursor: pointer;
+
+        }
+        .btn:hover{
+            background-color: rgb(124, 148, 92);
+
+        }
+        </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box">
+            <h1>Contact Form</h1>
+            <p class="lable">Please fill all the texts in the filds.</p>
+        </div>
+        <div class="container">
+            <p>
+                Your Name :
+                <input type="text" placeholder="Your Full Name">
+            </p>
+            <p>
+                Your Email : 
+                <input type="email" placeholder="Valid Email Address">
+            </p>
+            <p>
+                Message : 
+                <textarea placeholder="Your Message to Us" rows="6"></textarea>
+            </p>
+            <p>
+                Subject : 
+                <input type="text" placeholder="Job Inquiry">
+            </p>
+            <input class="btn" type="submit" name="Send" value="Send">
+    
+    
+        </div>
+
+    </div>
+</body>
+</html>
